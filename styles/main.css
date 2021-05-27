@@ -1,0 +1,38 @@
+.bg-image{
+    background-image: url(../img/images/img1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-image-fixed{
+    background-image: url(../img/images/img1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-video-fixed{
+    background-image: linear-gradient(rgba(40, 43, 44, 0.8), rgba(40, 43, 44, 0.8)), url(../../Images/media.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.font-14px{
+    font-size: 14.2px;
+}
+
+.bg-image-height{
+    height: 50vh;
+}
+
+.margin-{
+    margin-top: -50px;
+}
+
+.bg-red{
+    background-color:gray;
+}
+
+.company-logo-single {
+    padding: 35px;
+    
+}
