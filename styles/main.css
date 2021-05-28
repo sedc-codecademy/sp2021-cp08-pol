@@ -1,6 +1,6 @@
 :root {
   --bg-color: #fff;
-  --txt-color: #6610f2;
+  --txt-color: #050505;
   --txt-hover-color: #6f42c1;
   --btn-color: #050505;
   --btn-hover-color: #33a8d6;
@@ -10,6 +10,8 @@
     180deg,
     rgba(255, 255, 255, 0.15),
     rgba(255, 255, 255, 0)
+    
+  --main-font: Arial, Helvetica, sans-serif;
   );
 }
 
