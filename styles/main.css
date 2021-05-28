@@ -1,22 +1,4 @@
-/* 
-CSS COSTUM PROPERTIE EXAMPLE
-
-:root {
-    --bg-color: #ffffff;
-    --txt-color: #ff0000;
-    --main-font: Verdana, Arial, Helvetica, sans-serif;
-}
-
-body {
-    background-color: var(--bg-color);
-}
-
-h1 {
-    color: var(--txt-color);
-    font-family: var(--main-font);
-} 
- */
- @media (max-width: 768px) {
+@media (max-width: 768px) {
     .carousel-inner .carousel-item > div {
         display: none;
     }
