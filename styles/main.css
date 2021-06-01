@@ -379,7 +379,7 @@ input {
   visibility: visible;
   transform: perspective(600px) rotateX(0deg);
 }
-=======
+
 @media (max-width: 768px) {
     .carousel-inner .carousel-item > div {
         display: none;
@@ -413,3 +413,25 @@ input {
 .carousel-inner .carousel-item-left{ 
   transform: translateX(0);
 } 
+
+/* Contact Us */
+#formMain {
+  margin-left: 200px;
+  width: 430px;
+}
+
+.btnSubmit {
+  margin-left: 120px;
+}
+
+#locationMap {
+  margin-left: 100px;
+}
+
+.containersContacts {
+  margin-left: 330px;
+}
+
+.containersContacts a {
+  border-radius: 50%;
+}
