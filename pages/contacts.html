@@ -6,16 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/main.css">
-    <title>Contacts</title>
+    <link rel="stylesheet" href="../styles/contactUs.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>Contact Us</title>
 </head>
 <body>
     <header>
                
     </header>
 
-    <main>
+   <section>
+        <h2 class="h1-responsive font-weight-bold text-center my-5">Контакт</h2>
+        <p class="text-center w-responsive mx-auto pb-5">За било какви прашања слободно контактирајте го нашиот тим за поддршка.</p>
+           
+            <form class="border border-primary p-5 d-inline-block" id="formMain">
+                <div class="form-header blue accent-1">
+                    <h3 class="mt-2"><i class="fas fa-envelope"></i> Испратете порака</h3>
+                </div>
 
-    </main>
+                <div class="form-group">
+                  <label for="formGroupExampleInput">Име</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput">
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Емаил</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Наслов</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput">
+                </div>
+
+                <div class="form-group">
+                    <label for="form-text">Напиши порака</label>
+                    <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+                  </div>
+      
+                <div class="btnSubmit">
+                    <button class="btn btn-outline-primary">Испрати</button>
+                </div>
+            </form>
+
+            <div class="d-inline-block" id="locationMap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2965.3667608906017!2d21.447920615405483!3d41.99240377921335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135415950f16b2c9%3A0x9fc9ece4f99f5047!2sPolarino%20Ltd.!5e0!3m2!1sen!2smk!4v1621639767163!5m2!1sen!2smk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <div class="containersContacts">
+                <div class="d-inline-block p-5 text-center">
+                  <a class="btn btn-secondary btn-floating btn-outline-primary accent-1">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </a>
+                  <p>23<sup>ти</sup> Октомври 1A/4 лок.9 Скопје,</p>
+                  <p class="mb-md-0">Македонија</p>
+                </div>
+      
+                <div class="d-inline-block p-5 text-center">
+                  <a class="btn btn-secondary btn-floating btn-outline-primary accent-1">
+                      <i class="fas fa-phone"></i>
+                  </a>
+                  <p>+389 02 246 6600</p>
+                  <p class="mb-md-0">Пон - Пет, 09:00-14:00</p>
+                </div>
+      
+                <div class="d-inline-block p-5 text-center">
+                  <a class="btn btn-floating btn-secondary btn-outline-primary accent-1">
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                  <p>polarinoLtd@gmail</p>
+                  <p class="mb-0">aleksandar@gmail.com</p>
+                </div>
+            </div>
+           
+            
+   </section>
     
     <footer>
 
